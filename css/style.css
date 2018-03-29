@@ -160,7 +160,10 @@ header{
     
 }
 
-.contain-bottom{}
+.contain-bottom{
+    overflow: hidden;
+    padding: 0px 0px 0px 20px;
+}
 .single-text-contain{
     width: 30%;
     padding: 40px 10px;
@@ -290,7 +293,7 @@ footer{
     line-height: 20px;
     font-size: 16px;
     overflow: hidden;
-    padding: 60px 0;
+    padding: 60px 0px 60px 20px;
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
