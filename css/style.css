@@ -1,0 +1,339 @@
+*{margin: 0;padding: 0;}
+html{
+    min-width: 980px;
+}
+body{line-height: 18px;}
+.wraper{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left{float: left}
+.right{float: right}
+/*font-family: 'PT Sans', sans-serif;*/
+/*start header css*/
+header{
+    background-color: #fcdb00;
+    overflow: hidden;
+    min-height: 150px;
+    
+}
+.logo-section{
+    min-width: 30%;
+    padding: 40px 0px;
+    display: block;
+    
+}
+.logo{
+  
+}
+
+.logo-text{
+    padding: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav{
+    min-width: 45%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.nav ul{
+    float: right;
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    padding: 36px 18px;
+}
+.nav ul li:last-child{
+    padding-right: 0;
+}
+.nav ul li a{
+    display: block;
+    padding:18px 26px; 
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: 1s;
+}
+.nav ul li a:hover{
+    transform: scale(1.1);
+}
+/*end header css*/
+
+/*start banner section css*/
+#banner{
+    background-color: #fcdb00;
+    min-height: 550px;
+
+}
+.banner{
+    position: relative;
+    min-height: 620px;
+}
+.banner-left{
+    width: 45%;
+}
+.banner-text{
+    padding: 54px 0;
+}
+.ban-text-contain{}
+.ban-text-contain h2{
+    padding: 12px 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.ban-text-contain .regu{
+    padding: 12px 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    
+}
+.ban-text-contain p{
+    padding: 12px 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555555;
+}
+.ban-awasom-font{
+    font-size: 50px;
+    padding: 26px 0px;
+}
+
+.banner-right{
+    width:45%;
+    
+}
+.banner-slide{
+    float: right;
+    padding: 0px 60px;
+}
+.banner-slide img{
+    border-radius: 10px;
+}
+.slide-btn{
+    width: 56px;
+    min-height: 76px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    bottom: 0;
+    display: block;
+
+}
+/*end banner section css*/
+
+/*start contain secton css*/
+#contain{
+    background-color: white;
+    min-height: 300px;
+    overflow: hidden;
+}
+.contain{
+    padding: 60px 0;
+    overflow: hidden;
+}
+.contain-top{
+    text-align: center;
+    padding: 40px 0;
+}
+.contain-top h1{
+    padding: 10px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+.contain-top p{
+    padding: 10px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #313841;
+    
+}
+
+.contain-bottom{}
+.single-text-contain{
+    width: 30%;
+    padding: 40px 10px;
+}
+.single-text-contain h2{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-text-contain p{
+    padding: 10px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #898989;
+    
+}
+.awasome-font{
+    min-width: 15%;
+    padding-right: 20px;
+    font-size: 50px;
+    font-weight: normal;
+    transition: 1s;
+}
+.awasome-font{
+    transform:scale(1.1);
+}
+.text-contain{
+    width: 71%;
+}
+
+/*end contain secton css*/
+
+/*start footer section css*/
+    
+footer{
+    background-color: black;
+    min-height: 400px;
+    
+}
+.footer{
+    min-height: 420px;
+    overflow: hidden;
+    min-width: 900px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+/*footer top portion*/
+.footer-top{
+    text-align: center;
+    width: 744px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer-text{
+    color: white;
+   padding: 10px 0;
+}
+.footer-text h1{
+    padding: 10px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color:#fcdb00;
+}
+.footer-text p{
+    padding: 10px 0;
+    line-height: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #898989;
+}
+.footer-form{}
+.footer-form form{
+    padding: 22px 0;
+}
+.footer-form form input{
+    min-width: 550px;
+    height: 54px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 16px;
+    margin: 0px 20px 0px 0px;
+    border-radius: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    color: #fcdb00;
+}
+.footer-form form button{
+    height: 54px;
+    width: 128px;
+    background-color:#fcdb00;
+    color: #010101;
+    border: none;
+    border-radius: 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*footer middle portion*/
+.footer-middle{
+    width: 256px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+    overflow: hidden;    
+}
+
+.social-btn{
+    color: #fcdb00;
+    float: left;
+    padding: 10px;
+    font-size: 42px;
+    transition: 1s;
+}
+.social-btn:hove{
+    transform:scale(1.1);
+}
+
+/*footer bottom portion*/
+
+.footer-bottom{
+    color:white;
+    line-height: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 60px 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.address{
+    width: 34%;
+}
+.common{
+    width: 16%;
+    float: left;
+}
+.common ul{
+    list-style: none;
+}
+.common ul li{}
+.common ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 0;
+}
+.common ul li a:hover{}
+
+/*end footer section css*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
